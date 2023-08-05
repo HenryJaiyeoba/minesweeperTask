@@ -1,0 +1,3 @@
+# a. If the clicked cell contains a mine, the game ends immediately, and the player loses.
+# b. If the clicked cell does not contain a mine, it reveals a number indicating how many mines are in the neighboring cells (including diagonals). For example, if a cell shows the number "3," it means there are three mines in the eight surrounding cells.
+# c. If the clicked cell is empty (no neighboring mines), all adjacent cells (and their neighbors if they are also empty) are automatically revealed until cells with numbers or mines are reached. This "auto-reveal" feature helps the player clear out large areas quickly.
