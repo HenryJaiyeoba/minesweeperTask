@@ -79,7 +79,8 @@ class Minesweeper:
                 print(c, end=",")
             print("")
 
-            
+game_size = int(input("Please the size for the minesweeper: "))
+no_of_bombs = int(input("Please input the number of bombs you want in the minesweeper: "))
 def play(size=9,bomb_no=10):
     # initialize the game 
     game = Minesweeper(size,bomb_no)
@@ -116,6 +117,6 @@ def play(size=9,bomb_no=10):
         game.answer()
 
 
-play()
+play(game_size, no_of_bombs)
         
          
